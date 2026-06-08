@@ -4,11 +4,7 @@
 
 # Executive Summary
 
-The **"Monozone-centric Instance Grasping Policy" (MCIGP)** represents a novel paradigm in vision-guided robotic grasping designed specifically to address the limitations of current methods in large-scale, densely cluttered environments.
-
-Traditional approaches often rely on fixed camera views, which lead to incomplete object geometries at view boundaries, and attempt to analyze all objects in a scene simultaneously, which can dilute the reasoning for specific targets.
-
-MCIGP shifts this focus toward a **monozone-centric** approach. It utilizes a dynamic **"monozone"** to align the camera view with specific objects, effectively breaking the field-of-view limitations. It then employs instance-specific detection to perform an in-depth analysis of a single target.
+The **"Monozone-centric Instance Grasping Policy" (MCIGP)** represents a novel paradigm in vision-guided robotic grasping designed specifically to address the limitations of current methods in large-scale, densely cluttered environments. Traditional approaches often rely on fixed camera views, which lead to incomplete object geometries at view boundaries, and attempt to analyze all objects in a scene simultaneously, which can dilute the reasoning for specific targets. MCIGP shifts this focus toward a **monozone-centric** approach. It utilizes a dynamic **"monozone"** to align the camera view with specific objects, effectively breaking the field-of-view limitations. It then employs instance-specific detection to perform an in-depth analysis of a single target.
 
 ---
 
